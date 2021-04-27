@@ -1,113 +1,113 @@
 html {
-	font-display: swap;
-	font-family: "Helvetica Neue", helvetica, arial, sans-serif;
-	text-align: justify;
+    font-display: swap;
+    font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+    text-align: justify;
 }
 
 a {
-	background-color: transparent;
-	color: #4d97ff;
-	cursor: pointer;
-	font-weight: 700;
-	text-decoration: underline;
+    background-color: transparent;
+    color: #4D97FF;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 .logo a {
-	display: block;
-	margin: 0 6px 0 0;
-	border: 0;
-	background-image: url(https://scratch.mit.edu/static/assets/1e9652bec24bcaacf5285be19746a750.svg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: 95%;
-	width: 81px;
-	height: 50px;
+    display: block;
+    margin: 0 6px 0 0;
+    border: 0;
+    background-image: url(https://scratch.mit.edu/static/assets/1e9652bec24bcaacf5285be19746a750.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 95%;
+    width: 81px;
+    height: 50px;
 }
 
 .navigation {
-	display: flex;
-	list-style: none;
-	background-color: #4d97ff;
-	text-align: center;
-	width: 100%;
-	flex-wrap: nowrap;
-	flex-direction: row;
-	justify-content: flex-start;
-	position: sticky;
-	top: 0;
+    display: flex;
+    list-style: none;
+    background-color: #4D97FF;
+    text-align: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: sticky;
+    top: 0;
 }
 
 ul.navigation {
-	justify-content: center;
-	display: flex;
+    justify-content: center;
+    display: flex;
 }
 
 ol,
 ul {
-	line-height: 1.5em;
-	font-size: 1rem;
+    line-height: 1.5em;
+    font-size: 1rem;
 }
 
 ::selection {
-	background-color: rgba(77, 151, 255, 0.25);
+    background-color: rgba(77, 151, 255, 0.25);
 }
 
 .link > a {
-	display: inline-block;
-	white-space: nowrap;
-	color: #fff;
-	font-size: 20px;
-	font-weight: 700;
-	padding: 13px 15px 4px 15px;
-	height: 33px;
-	text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 13px 15px 4px 15px;
+    height: 33px;
+    text-decoration: none;
 }
 
 .title > a {
-	color: #ebb460;
+    color: #EBB460;
 }
 
 ul {
-	margin-block-start: 1em;
-	margin-block-end: 1em;
-	margin-inline-start: 0;
-	margin-inline-end: 0;
-	padding-inline-start: 40px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 40px;
 }
 
 div {
-	display: block;
+    display: block;
 }
 
 li {
-	display: list-item;
+    display: list-item;
 }
 
 .page {
-	display: inline-block;
-	margin-top: 20px;
-	background-color: #fcfcfc;
-	width: 750px;
-	min-height: 768px;
-	vertical-align: middle;
-	text-align: justify;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #FCFCFC;
+    width: 750px;
+    min-height: 768px;
+    vertical-align: middle;
+    text-align: justify;
 }
 
 .box-header {
-	font-weight: 700;
-	border: 0;
-	margin-inline-start: 0;
-	margin-inline-end: 0;
-	display: block;
-	clear: both;
-	margin: 0;
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #d9d9d9;
-	border-radius: 10px 10px 0 0;
-	background-color: #f2f2f2;
-	padding: 8px 20px;
-	height: 20px;
-	overflow: hidden;
+    font-weight: 700;
+    border: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    display: block;
+    clear: both;
+    margin: 0;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #D9D9D9;
+    border-radius: 10px 10px 0 0;
+    background-color: #F2F2F2;
+    padding: 8px 20px;
+    height: 20px;
+    overflow: hidden;
 }
 
 h1,
@@ -116,21 +116,21 @@ h3,
 h4,
 h5,
 p {
-	line-height: 1.7em;
-	color: #575e75;
+    line-height: 1.7em;
+    color: #575E75;
 }
 
 .box {
-	display: inline-block;
-	width: calc(100% - 20px);
-	margin-bottom: 20px;
-	border: 1px solid #d9d9d9;
-	border-radius: 10px 10px 0 0;
-	background-color: #fff;
+    display: inline-block;
+    width: calc(100% - 20px);
+    margin-bottom: 20px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px 10px 0 0;
+    background-color: #FFF;
 }
 
 .box-content {
-	padding: 0 20px;
+    padding: 0 20px;
 }
 
 /*# sourceMappingURL=style.min.css.map */
